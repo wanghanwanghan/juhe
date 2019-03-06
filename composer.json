@@ -1,0 +1,24 @@
+{
+    "name": "wanghan/juhe",
+    "description": "cao ni ma sha bi m1ma",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wanghan",
+            "email": "minglongoc@sina.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Wanghan\\Juhe\\": "./src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wanghan\\Juhe\\ServiceProvider"
+            ]
+        }
+    }
+}
